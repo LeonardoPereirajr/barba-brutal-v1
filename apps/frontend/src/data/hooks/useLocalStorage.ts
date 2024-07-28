@@ -15,5 +15,5 @@ export default function useLocalStorage() {
         window?.localStorage?.setItem(chave, JSON.stringify(valor))
     }, [])
 
-    return { get, set, remove}
+    return { get, set, remove }
 }

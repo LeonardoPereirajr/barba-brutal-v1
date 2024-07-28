@@ -1,12 +1,11 @@
 import { Module } from '@nestjs/common';
 import { DbModule } from './db/db.module';
-import { PrismaService } from './db/prisma.service';
 import { ServicoModule } from './servico/servico.module';
-import { ServicoController } from './servico/servico.controller';
+import { AgendamentoModule } from './agendamento/agendamento.module';
 
 @Module({
-  imports: [DbModule, ServicoModule],
-  controllers: [ServicoController],
-  providers: [PrismaService],
+  imports: [DbModule, ServicoModule, AgendamentoModule],
+  controllers: [],
+  providers: [],
 })
 export class AppModule {}

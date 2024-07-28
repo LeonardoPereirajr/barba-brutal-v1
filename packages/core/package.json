@@ -9,7 +9,7 @@
         "build": "tsup src/index.ts --dts --minify"
     },
     "keywords": [],
-    "author": "Leonardo Pereira",
+    "author": "Leonardo Moura Leitão",
     "license": "ISC",
     "devDependencies": {
         "tsup": "^8.1.2"
